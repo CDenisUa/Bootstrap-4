@@ -1,6 +1,9 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+.bg__white{
+    background-color: rgb(206, 205, 205);
+}
 ul,li{
     display: block;
     padding: 0;
@@ -28,7 +31,7 @@ ul,li{
     color: #868686;
 }
 
-/*Шапка*/
+/*Header*/
 .header>div{
     color: #ffffff;
     font-weight: normal;
@@ -73,7 +76,7 @@ ul,li{
 .about__title{
     font-size: 30px;
     margin-bottom: 20px;
-    font-weight: 600;
+    font-weight: 700;
 }
 .about_h3{
     margin-top: 30px;
@@ -86,4 +89,52 @@ ul,li{
     font-size: 15px;
     margin-bottom: 110px;
     
+}
+
+/*services*/
+
+.services{
+    padding-top: 165px;
+    padding-bottom: 125px;
+    color: #000000;
+    text-align: center;
+    background-color: #e4fdf9;
+}
+
+.our_card{
+    background-color: #fff;
+    padding: 50px 25px 40px;
+    transition: .3s;
+    margin-bottom: 30px;
+}
+
+.our_card:hover{
+    background-color: #00897b;
+    color: #fff;
+    box-shadow: 0px 10px 12px -3px rgba(0,0,0,0.26);
+}
+.our_card:hover .icon{
+    color: #fff;
+}
+.our_card:hover .button-services{
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.icon{
+    transition: .3s;
+    font-size: 60px;
+    color: #000;
+}
+
+.button-services{
+    text-transform: uppercase;
+    border: 2px solid #000;
+    background-color: transparent;
+    padding: 12px 12px;
+    font-weight: 600;
+    transition: .3s;
+}
+.button-services:hover{
+    cursor: pointer;
 }
