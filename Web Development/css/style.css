@@ -256,9 +256,9 @@ div[filter]:hover .text{
     margin-bottom: 30px;
 }
 
-.team img{
+.slick-slider img{
     margin: 0 auto;
-    min-width: 340px;
+    width: 340px;
 }
 .multiple-items{
     margin-top: 125px;
