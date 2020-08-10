@@ -41,6 +41,15 @@ $(document).ready(function () {
                     infinite: true,
                     dots: true
                 }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
             }
         ]
     });
@@ -62,7 +71,7 @@ $(document).ready(function () {
     });
 
     /*Menu show*/
-    console.log
+
     $('.menu-icon').click(function () {
         $('nav').slideToggle(500);
         $('ul.menu').css({
@@ -92,4 +101,5 @@ $(document).ready(function () {
             scrollTop: 0
         }, 800);
     });
+
 });
