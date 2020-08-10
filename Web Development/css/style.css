@@ -575,3 +575,14 @@ div[filter]:hover .text{
         padding-top: 40px;
     }
 }
+@media screen and (max-width: 280px){
+    .slick-slider img{
+        width: 200px;
+    }
+    .icons{
+        flex-wrap: wrap;
+    }
+    .blog div{
+        flex-wrap: wrap;
+    }
+}
